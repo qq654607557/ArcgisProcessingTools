@@ -141,6 +141,12 @@
     <Compile Include="ClassControlRecord.cs" />
     <Compile Include="Classexcel精度检查type.cs" />
     <Compile Include="ClassMessRecord.cs" />
+    <Compile Include="DataFusion\Form数据融合_图层交集与保留.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFusion\Form数据融合_图层交集与保留.designer.cs">
+      <DependentUpon>Form数据融合_图层交集与保留.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormArcMap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,6 +253,9 @@
     <Compile Include="数据合并-GDB.Designer.cs">
       <DependentUpon>数据合并-GDB.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DataFusion\Form数据融合_图层交集与保留.resx">
+      <DependentUpon>Form数据融合_图层交集与保留.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormArcMap.resx">
       <DependentUpon>FormArcMap.cs</DependentUpon>
     </EmbeddedResource>
@@ -314,6 +323,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HelperArcGIS\HelperArcGIS.csproj">
+      <Project>{7bdb962c-0129-42bb-8940-366f4e2df0fb}</Project>
+      <Name>HelperArcGIS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelperClass\HelperClass.csproj">
+      <Project>{dd99beca-bb98-4c46-b111-16bc699b8d9d}</Project>
+      <Name>HelperClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelperWindowsControl\HelperWindowsControl.csproj">
+      <Project>{42670248-c8a4-428e-b086-d5b6842b4834}</Project>
+      <Name>HelperWindowsControl</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

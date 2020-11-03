@@ -98,6 +98,7 @@
     <Compile Include="DataProcessing\HelperMosaicDataset.cs" />
     <Compile Include="HelperGeometry.cs" />
     <Compile Include="HelperLonLat.cs" />
+    <Compile Include="LicenseRun.cs" />
     <Compile Include="Model\PolygonModel.cs" />
     <Compile Include="Model\PostModel.cs" />
     <Compile Include="PGTool\GeoprocessorRun.cs" />
