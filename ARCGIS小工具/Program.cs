@@ -16,10 +16,10 @@ namespace ARCGIS小工具
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            string mess = "";
-            bool isrun = true;
-            isrun= HelperArcGIS.LicenseRun.Run(ref mess);
-            if (!isrun) { MessageBox.Show(mess); return; }
+            //string mess = "";
+            //bool isrun = true;
+            //isrun= HelperArcGIS.LicenseRun.Run(ref mess);
+            //if (!isrun) { MessageBox.Show(mess); return; }
 
             Application.Run(new FormMain());
         }

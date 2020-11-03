@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HelperClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\HelperClass\bin\Debug\HelperClass.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -78,6 +82,10 @@
     <ProjectReference Include="..\HelperArcGIS\HelperArcGIS.csproj">
       <Project>{7bdb962c-0129-42bb-8940-366f4e2df0fb}</Project>
       <Name>HelperArcGIS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelperWindowsControl\HelperWindowsControl.csproj">
+      <Project>{42670248-C8A4-428E-B086-D5B6842B4834}</Project>
+      <Name>HelperWindowsControl</Name>
     </ProjectReference>
     <ProjectReference Include="..\ImageProcessing\ImageProcessing.csproj">
       <Project>{a6101727-ca9c-4e82-98b4-a9160bcc7160}</Project>

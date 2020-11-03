@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="HelperControlRecord.cs" />
     <Compile Include="HelperMessRecord.cs" />
+    <Compile Include="MyControls\UC_RichTextBoxTools.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControls\UC_RichTextBoxTools.Designer.cs">
+      <DependentUpon>UC_RichTextBoxTools.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyControls\UC_txt.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -56,6 +62,9 @@
       <DependentUpon>UC_txt.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MyControls\UC_RichTextBoxTools.resx">
+      <DependentUpon>UC_RichTextBoxTools.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyControls\UC_txt.resx">
       <DependentUpon>UC_txt.cs</DependentUpon>
     </EmbeddedResource>

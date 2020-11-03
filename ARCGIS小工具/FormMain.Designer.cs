@@ -32,6 +32,7 @@ namespace ARCGIS小工具
             this.btn数据融合_图层交集与保留 = new System.Windows.Forms.Button();
             this.gb数据融合 = new System.Windows.Forms.GroupBox();
             this.flp数据融合 = new System.Windows.Forms.FlowLayoutPanel();
+            this.uC_RichTextBoxTools1 = new HelperWindowsControl.MyControls.UC_RichTextBoxTools();
             this.gb数据融合.SuspendLayout();
             this.flp数据融合.SuspendLayout();
             this.SuspendLayout();
@@ -66,11 +67,19 @@ namespace ARCGIS小工具
             this.flp数据融合.Size = new System.Drawing.Size(805, 228);
             this.flp数据融合.TabIndex = 0;
             // 
+            // uC_RichTextBoxTools1
+            // 
+            this.uC_RichTextBoxTools1.Location = new System.Drawing.Point(47, 277);
+            this.uC_RichTextBoxTools1.Name = "uC_RichTextBoxTools1";
+            this.uC_RichTextBoxTools1.Size = new System.Drawing.Size(687, 322);
+            this.uC_RichTextBoxTools1.TabIndex = 2;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 643);
+            this.Controls.Add(this.uC_RichTextBoxTools1);
             this.Controls.Add(this.gb数据融合);
             this.Name = "FormMain";
             this.Text = "所有工具";
@@ -85,6 +94,7 @@ namespace ARCGIS小工具
         private System.Windows.Forms.Button btn数据融合_图层交集与保留;
         private System.Windows.Forms.GroupBox gb数据融合;
         private System.Windows.Forms.FlowLayoutPanel flp数据融合;
+        private HelperWindowsControl.MyControls.UC_RichTextBoxTools uC_RichTextBoxTools1;
     }
 }
 

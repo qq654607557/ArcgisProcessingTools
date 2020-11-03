@@ -17,7 +17,7 @@ namespace XFP生产工具
         HelperMessRecord Mess;
         HelperControlRecord helperControlRecord;
         const string fromname = "生产工具_XFP生产工具";
-        const string fromlevel = " v1.0 20201103";
+        const string fromlevel = " v1.1 20201103";
 
         public FormXFP生产工具()
         {
@@ -115,7 +115,8 @@ namespace XFP生产工具
             List<string> txtxfps = txt.ReadTxt(xfppath);
             List<string> savestrings = new List<string>();
             //savestrings.Add("    40000014              6756.57482      1634.81085   0.00  3 { * }");
-            string strconfig = "    {0}              {1}      {2}";
+            //string strconfig = "    {0}              {1}      {2}";
+            string strconfig = "{0}{1}{2}";
 
             int index = 0;
             for (int i = 0; i < txtxfps.Count; i++)
@@ -196,11 +197,11 @@ namespace XFP生产工具
             }
             try
             {
+                strout[0] = strout[0].PadLeft(12, ' ');
                 // xfp第二列=txt第二列/像元大小(哪里来的？)+图幅宽（哪里来的？）
-                strout[1] = (double.Parse(strout[1]) / xysize + tfk).ToString(txtgs);
-
+                strout[1] = (double.Parse(strout[1]) / xysize + tfk).ToString(txtgs).PadLeft(24,' ');
                 // xfp第三列=图幅高（哪里来的？）- txt第三列/像元大小
-                strout[2] = (tfg - (double.Parse(strout[2]) / xysize)).ToString(txtgs);
+                strout[2] = (tfg - (double.Parse(strout[2]) / xysize)).ToString(txtgs).PadLeft(16, ' ');
 
                 return true;
             }
