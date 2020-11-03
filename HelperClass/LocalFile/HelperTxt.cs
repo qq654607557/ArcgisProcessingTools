@@ -9,6 +9,8 @@ namespace HelperClass.LocalFile
 {
     public class HelperTxt
     {
+        private Encoding encoding= Encoding.UTF8;
+        public Encoding TxtEncoding { set { this.encoding=value; } }
 
         /// <summary>
         /// 写入txt
@@ -18,7 +20,7 @@ namespace HelperClass.LocalFile
         public void WriteTxt(string path, List<string> strs)
         {
             FileStream pFileStream = new FileStream(path, FileMode.Create);
-            StreamWriter pStreamWriter = new StreamWriter(pFileStream, Encoding.Default);
+            StreamWriter pStreamWriter = new StreamWriter(pFileStream, encoding);
             if (strs != null)
             {
                 foreach (var item in strs)
@@ -40,7 +42,7 @@ namespace HelperClass.LocalFile
         {
             List<string> strs = new List<string>();
             if (!File.Exists(path)) return strs;
-            using (StreamReader reader = new StreamReader(path, Encoding.Default))
+            using (StreamReader reader = new StreamReader(path, encoding))
             {
                 //循环读取所有行
                 while (!reader.EndOfStream)
@@ -64,7 +66,7 @@ namespace HelperClass.LocalFile
         public void WriteTxt_Dic(string path, Dictionary<string, string> keys)
         {
             FileStream pFileStream = new FileStream(path, FileMode.Create);
-            StreamWriter pStreamWriter = new StreamWriter(pFileStream, Encoding.Default);
+            StreamWriter pStreamWriter = new StreamWriter(pFileStream, encoding);
             if (keys != null)
             {
                 foreach (KeyValuePair<string, string> key in keys)
@@ -86,7 +88,7 @@ namespace HelperClass.LocalFile
         {
             Dictionary<string, string> keys = new Dictionary<string, string>();
             if (!File.Exists(path)) return keys;
-            using (StreamReader reader = new StreamReader(path, Encoding.Default))
+            using (StreamReader reader = new StreamReader(path, encoding))
             {
                 //循环读取所有行
                 while (!reader.EndOfStream)
