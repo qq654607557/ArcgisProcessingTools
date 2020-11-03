@@ -47,7 +47,8 @@ namespace HelperClass.LocalFile
                 //循环读取所有行
                 while (!reader.EndOfStream)
                 {
-                    string line = Regex.Replace(reader.ReadLine(), "\\s{2,}", " ");
+                    // string line = Regex.Replace(reader.ReadLine(), "\\s{2,}", " ");
+                    string line = reader.ReadLine();
                     if (line == "")
                     {
                         continue;
