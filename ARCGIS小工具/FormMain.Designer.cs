@@ -53,7 +53,7 @@ namespace ARCGIS小工具
             this.gb数据融合.Dock = System.Windows.Forms.DockStyle.Top;
             this.gb数据融合.Location = new System.Drawing.Point(0, 0);
             this.gb数据融合.Name = "gb数据融合";
-            this.gb数据融合.Size = new System.Drawing.Size(811, 252);
+            this.gb数据融合.Size = new System.Drawing.Size(811, 121);
             this.gb数据融合.TabIndex = 1;
             this.gb数据融合.TabStop = false;
             this.gb数据融合.Text = "数据融合";
@@ -64,14 +64,15 @@ namespace ARCGIS小工具
             this.flp数据融合.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flp数据融合.Location = new System.Drawing.Point(3, 21);
             this.flp数据融合.Name = "flp数据融合";
-            this.flp数据融合.Size = new System.Drawing.Size(805, 228);
+            this.flp数据融合.Size = new System.Drawing.Size(805, 97);
             this.flp数据融合.TabIndex = 0;
             // 
             // uC_RichTextBoxTools1
             // 
-            this.uC_RichTextBoxTools1.Location = new System.Drawing.Point(47, 277);
+            this.uC_RichTextBoxTools1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_RichTextBoxTools1.Location = new System.Drawing.Point(0, 121);
             this.uC_RichTextBoxTools1.Name = "uC_RichTextBoxTools1";
-            this.uC_RichTextBoxTools1.Size = new System.Drawing.Size(687, 322);
+            this.uC_RichTextBoxTools1.Size = new System.Drawing.Size(811, 522);
             this.uC_RichTextBoxTools1.TabIndex = 2;
             // 
             // FormMain

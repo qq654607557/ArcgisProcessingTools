@@ -17,12 +17,12 @@ namespace XFP生产工具
         HelperMessRecord Mess;
         HelperControlRecord helperControlRecord;
         const string fromname = "生产工具_XFP生产工具";
-        const string fromlevel = " v1.1 20201103";
+        const string fromlevel = " v1.2 20201103";
 
         public FormXFP生产工具()
         {
             InitializeComponent();
-
+            HelperMainWindows.SetICO(this);
             Mess = new HelperMessRecord(this, richTextBox1);
             helperControlRecord = new HelperControlRecord(fromname);
             helperControlRecord.Add(this.groupBox1.Controls);
@@ -199,10 +199,10 @@ namespace XFP生产工具
             {
                 strout[0] = strout[0].PadLeft(12, ' ');
                 // xfp第二列=txt第二列/像元大小(哪里来的？)+图幅宽（哪里来的？）
-                strout[1] = (double.Parse(strout[1]) / xysize + tfk).ToString(txtgs).PadLeft(24,' ');
-                // xfp第三列=图幅高（哪里来的？）- txt第三列/像元大小
-                strout[2] = (tfg - (double.Parse(strout[2]) / xysize)).ToString(txtgs).PadLeft(16, ' ');
+                strout[1] = (tfk/2+(double.Parse(strout[1])/xysize*1000)).ToString(txtgs).PadLeft(24, ' ');
 
+                // xfp第三列=图幅高（哪里来的？）- txt第三列/像元大小
+                strout[2] = (tfg/2 - (double.Parse(strout[2]) / xysize*1000)).ToString(txtgs).PadLeft(16, ' ');
                 return true;
             }
             catch (Exception ex)

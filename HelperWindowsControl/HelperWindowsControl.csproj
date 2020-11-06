@@ -48,7 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HelperControlRecord.cs" />
+    <Compile Include="HelperMainWindows.cs" />
     <Compile Include="HelperMessRecord.cs" />
+    <Compile Include="MyControls\AboutBoxInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyControls\AboutBoxInfo.Designer.cs">
+      <DependentUpon>AboutBoxInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyControls\UC_RichTextBoxTools.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -62,6 +69,9 @@
       <DependentUpon>UC_txt.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MyControls\AboutBoxInfo.resx">
+      <DependentUpon>AboutBoxInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyControls\UC_RichTextBoxTools.resx">
       <DependentUpon>UC_RichTextBoxTools.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +86,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -92,6 +103,9 @@
       <Project>{dd99beca-bb98-4c46-b111-16bc699b8d9d}</Project>
       <Name>HelperClass</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICO32.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
