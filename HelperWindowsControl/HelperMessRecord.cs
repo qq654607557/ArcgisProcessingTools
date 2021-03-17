@@ -27,7 +27,17 @@ namespace HelperWindowsControl
             });
         }
 
-       public  void Clear()
+        public void RecordNODate(string mess)
+        {
+            form.Invoke((EventHandler)delegate
+            {
+                this.rtbRecord.AppendText( mess + "\n");
+                rtbRecord.SelectionStart = rtbRecord.TextLength;
+                rtbRecord.ScrollToCaret();
+            });
+        }
+
+        public  void Clear()
         {
             form.Invoke((EventHandler)delegate
             {

@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42670248-C8A4-428E-B086-D5B6842B4834}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>HelperWindowsControl</RootNamespace>
-    <AssemblyName>HelperWindowsControl</AssemblyName>
+    <ProjectGuid>{E8844735-1C55-4330-B85D-5F1D0DD40E12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>数据处理_批量导出数据</RootNamespace>
+    <AssemblyName>数据处理_批量导出数据</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,16 +24,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,44 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelperControlRecord.cs" />
-    <Compile Include="HelperMainWindows.cs" />
-    <Compile Include="HelperMessRecord.cs" />
-    <Compile Include="MyControls\AboutBoxInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MyControls\AboutBoxInfo.Designer.cs">
-      <DependentUpon>AboutBoxInfo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MyControls\UC_RichTextBoxTools.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="MyControls\UC_RichTextBoxTools.Designer.cs">
-      <DependentUpon>UC_RichTextBoxTools.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MyControls\UC_txt.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="MyControls\UC_txt.designer.cs">
-      <DependentUpon>UC_txt.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registered\FormRegistered.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Registered\FormRegistered.Designer.cs">
-      <DependentUpon>FormRegistered.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Registered\RegisteredSoft.cs" />
-    <EmbeddedResource Include="MyControls\AboutBoxInfo.resx">
-      <DependentUpon>AboutBoxInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyControls\UC_RichTextBoxTools.resx">
-      <DependentUpon>UC_RichTextBoxTools.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyControls\UC_txt.resx">
-      <DependentUpon>UC_txt.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -95,9 +57,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Registered\FormRegistered.resx">
-      <DependentUpon>FormRegistered.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -109,13 +68,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelperClass\HelperClass.csproj">
-      <Project>{dd99beca-bb98-4c46-b111-16bc699b8d9d}</Project>
-      <Name>HelperClass</Name>
-    </ProjectReference>
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ICO32.ico" />
+    <ProjectReference Include="..\..\HelperArcGIS\HelperArcGIS.csproj">
+      <Project>{7bdb962c-0129-42bb-8940-366f4e2df0fb}</Project>
+      <Name>HelperArcGIS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ImageProcessing\ImageProcessing.csproj">
+      <Project>{a6101727-ca9c-4e82-98b4-a9160bcc7160}</Project>
+      <Name>ImageProcessing</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

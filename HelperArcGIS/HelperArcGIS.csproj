@@ -108,6 +108,7 @@
     <Compile Include="PGTool\GPServerTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SupportFile\HelperMDB.cs" />
+    <Compile Include="SupportFile\HelperSDE.cs" />
     <Compile Include="SupportFile\ShapefileRead.cs" />
     <Compile Include="SupportFile\HelperGDB.cs" />
   </ItemGroup>

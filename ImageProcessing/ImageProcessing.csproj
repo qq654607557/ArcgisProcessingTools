@@ -141,6 +141,30 @@
     <Compile Include="ClassControlRecord.cs" />
     <Compile Include="Classexcel精度检查type.cs" />
     <Compile Include="ClassMessRecord.cs" />
+    <Compile Include="DataFusion\Form数据处理_批量修改别名.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFusion\Form数据处理_批量修改别名.Designer.cs">
+      <DependentUpon>Form数据处理_批量修改别名.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataFusion\Form数据处理_批量导出列别名.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFusion\Form数据处理_批量导出列别名.Designer.cs">
+      <DependentUpon>Form数据处理_批量导出列别名.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataFusion\Form数据处理_批量导出列别名EXCE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFusion\Form数据处理_批量导出列别名EXCE.Designer.cs">
+      <DependentUpon>Form数据处理_批量导出列别名EXCE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataFusion\Form数据处理_批量导出数据.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFusion\Form数据处理_批量导出数据.Designer.cs">
+      <DependentUpon>Form数据处理_批量导出数据.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataFusion\Form数据融合_图层交集与保留.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -253,6 +277,18 @@
     <Compile Include="数据合并-GDB.Designer.cs">
       <DependentUpon>数据合并-GDB.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DataFusion\Form数据处理_批量修改别名.resx">
+      <DependentUpon>Form数据处理_批量修改别名.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataFusion\Form数据处理_批量导出列别名.resx">
+      <DependentUpon>Form数据处理_批量导出列别名.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataFusion\Form数据处理_批量导出列别名EXCE.resx">
+      <DependentUpon>Form数据处理_批量导出列别名EXCE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataFusion\Form数据处理_批量导出数据.resx">
+      <DependentUpon>Form数据处理_批量导出数据.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataFusion\Form数据融合_图层交集与保留.resx">
       <DependentUpon>Form数据融合_图层交集与保留.cs</DependentUpon>
     </EmbeddedResource>
@@ -337,6 +373,9 @@
       <Project>{42670248-c8a4-428e-b086-d5b6842b4834}</Project>
       <Name>HelperWindowsControl</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Registered\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

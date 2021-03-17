@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>		
+GHKZ_520100_ZYKZX	GHKZ_520100_STHX	生态保护红线_生态红线
+		
+		
+GHKZ_520100_ZYKZX	GHKZ_520100_ZXCQ_KFBJ	城镇开发边界_中心城区开发边界
+		
+		
+		
+		
+GHZG_520100_TDQYZXGH	GHZG_520100_TDQYZXGH_FJMSQGH	自然保护地类专项规划_风景名胜区规划
+GHZG_520100_TDQYZXGH	GHZG_520100_TDQYZXGH_SDBHGH	自然保护地类专项规划_湿地保护规划
+		
+		
+		
+		
+		
+GHZG_520100_JCSS	GHZG_520100_JCSS_HXDL_PL	特定行业专项规划_交通市政规划_环线道路
+GHZG_520100_JCSS	GHZG_520100_JCSS_LYHX_PL	特定行业专项规划_交通市政规划_旅游环线
+GHZG_520100_JCSS	GHZG_520100_JCSS_SX_PL	特定行业专项规划_交通市政规划_射线
+GHZG_520100_JCSS	GHZG_520100_JCSS_GDJT_PL	特定行业专项规划_交通市政规划_轨道交通
+GHZG_520100_JCSS	GHZG_520100_JCSS_TLX_PL	特定行业专项规划_交通市政规划_铁路线
+GHZG_520100_JCSS	GHZG_520100_JCSS_ZC_PL	特定行业专项规划_交通市政规划_铁路站场
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHDLZXX_PL	特定行业专项规划_交通市政规划_规划道路中心线
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHGJCZ_PY	特定行业专项规划_交通市政规划_规划公交场站
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHGJZYD_PL	特定行业专项规划_交通市政规划_规划公交专用道
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHGDJTCLD_PY	特定行业专项规划_交通市政规划_规划轨道交通车辆段
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHGDJTZD_PY	特定行业专项规划_交通市政规划_规划轨道交通站点
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHGDJTZXX_PL	特定行业专项规划_交通市政规划_规划轨道交通中心线
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHGGTCC_PY	特定行业专项规划_交通市政规划_规划公共停车场
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHJYJQZ_PY	特定行业专项规划_交通市政规划_规划加油加气站
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHTL_PL	特定行业专项规划_交通市政规划_规划铁路
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHZXCD_PL	特定行业专项规划_交通市政规划_规划自行车道
+		
+		
+		
+GHZG_520100_JCSS	GHZG_520100_JCSS_WSCLC_PY	特定行业专项规划_污水处理厂_中心城区污水处理厂
+		
+		
+		
+		
+		
+		
+GHZG_520100_JCSS	GHZG_520100_JCSS_PSX_PL	特定行业专项规划_排水
+GHZG_520100_JCSS	GHZG_520100_JCSS_PSX_PL	特定行业专项规划_排水
+GHZG_520100_JCSS	GHZG_520100_JCSS_PSX_PL	特定行业专项规划_排水
+GHZG_520100_JCSS	GHZG_520100_JCSS_PSX_PL	特定行业专项规划_排水
+GHZG_520100_JCSS	GHZG_520100_JCSS_WHSS_PT	特定行业专项规划_文化设施
+GHZG_520100_JCSS	GHZG_520100_JCSS_ZXX_PT	特定行业专项规划_教育_中心城区中小学
+GHZG_520100_JCSS	GHZG_520100_JCSS_CLZ_PT	特定行业专项规划_菜篮子
+GHZG_520100_JCSS	GHZG_520100_JCSS_GWYD_PT	特定行业专项规划_生态体育类_高危运动
+GHZG_520100_JCSS	GHZG_520100_JCSS_HWLY_PT	特定行业专项规划_生态体育类_户外露营
+GHZG_520100_JCSS	GHZG_520100_JCSS_HWQLYD_PT	特定行业专项规划_生态体育类_户外球类运动
+GHZG_520100_JCSS	GHZG_520100_JCSS_JZBD_PT	特定行业专项规划_生态体育类_健走步道
+GHZG_520100_JCSS	GHZG_520100_JCSS_MZTSYD_PT	特定行业专项规划_生态体育类_民族特色运动
+GHZG_520100_JCSS	GHZG_520100_JCSS_SDZXCSD_PT	特定行业专项规划_生态体育类_山地自行车赛道
+GHZG_520100_JCSS	GHZG_520100_JCSS_STTYGY_PT	特定行业专项规划_生态体育类_生态体育公园
+GHZG_520100_JCSS	GHZG_520100_JCSS_SJTYSS_PT	特定行业专项规划_市级体育设施
+GHZG_520100_JCSS	GHZG_520100_JCSS_YLSS_PT	特定行业专项规划_养老设施
+GHZG_520100_JCSS	GHZG_520100_JCSS_YLBH_PT	特定行业专项规划_医疗设施
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHEJYSYLDCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHJCYLSSCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHWSFWSSCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHYLDCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHZHYYCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHZKYYCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_GHZYYYCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_XZEJYSYLDCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_XZGGWSFWSSCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_XZJCYLCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_XZYLD_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_XZYLDCG_PT	
+GHZG_520100_JCSS	GHZG_520100_JCSS_XZZYJZKYYDCG_PT	
+		
+		
+		
+		
+		
+		
+GHZG_520100_LYGH	GHZG_520100_LYGH_SYLYGKQ	特定行业专项规划_林业规划_市域林业管控区
+GHZG_520100_JCSS	GHZG_520100_JCSS_STBHGH_PY	
+		
+		
+		
+		
+		
+GHZG_520100_JCSS	GHZG_520100_JCSS_XFZ_PT	特定行业专项规划_防灾减灾等安全设施专项规划_消防站
+GHZG_520100_JCSS	GHZG_520100_JCSS_XFFQ_PY	特定行业专项规划_防灾减灾等安全设施专项规划_消防分区
+		
+		
+		
+		
+		
+		
+		
+GHZG_520100_JCSS	GHZG_520100_JCSS_SYBHQ_PY	特定行业专项规划_环保规划_水源保护区
+GHZG_520100_JCSS	GHZG_520100_JCSS_FJMSQ_PY	特定行业专项规划_环保规划_风景名胜区
+GHZG_520100_JCSS	GHZG_520100_JCSS_SDGY_PY	特定行业专项规划_环保规划_湿地公园
+GHZG_520100_JCSS	GHZG_520100_JCSS_SDHX_PY	特定行业专项规划_环保规划_湿地红线
+GHZG_520100_JCSS	GHZG_520100_JCSS_ZRBHQ_PY	特定行业专项规划_环保规划_自然保护区
+		
+		
+GHZG_520100_JCSS	GHZG_520100_JCSS_GDJT_PL	
+GHZG_520100_JCSS	GHZG_520100_JCSS_TLX_PL	
+GHZG_520100_JCSS	GHZG_520100_JCSS_ZC_PL	
+		
+GHZG_520100_JCSS	GHZG_520100_JCSS_SQBJ_PY	特定行业专项规划_社区边界
+		
+		
+		
+GHGJ_520100_GTGH_2019	GHGJ_520100_TG_YTFQ_2019	土地利用总体规划_市（地）土地利用总体规划_用途分区
+		
+GHGJ_520100_GTGH_2019	GHGJ_520100_TG_GZFQ_2019	土地利用总体规划_市（地）土地利用总体规划_管制分区
+		
+GHGJ_520100_GTGH	GHGJ_520100_TDGHDL_2019	土地利用总体规划_市（地）土地利用总体规划_土地规划地类
+		
+GHGJ_520100_GTGH_2019	GHGJ_520100_TDGHDL_2020	土地利用总体规划_村土地利用规划_土地规划地类2020
+GHGJ_520100_GTGH_2019	GHGJ_520100_TDGHDL_2035	土地利用总体规划_村土地利用规划_土地规划地类2035
+GHGJ_520100_GTGH_2019	GHGJ_520100_JSYDGZQ_2020	土地利用总体规划_村土地利用规划_建设用地管制区2020
+GHGJ_520100_GTGH	GHGJ_520100_JSYDGZQ_2035	土地利用总体规划_村土地利用规划_建设用地管制区2035
+GHGJ_520100_GTGH_2019	GHGJ_520100_XCJX_2019	土地利用总体规划_村土地利用规划_乡村界线
+GHGJ_520100_GTGH_2019	GHGJ_520100_JBNTBHTB_2019	土地利用总体规划_村土地利用规划_基本农田保护图斑
+GHGJ_520100_GTGH_2019	GHGJ_520100_JQDLTB_2019	土地利用总体规划_村土地利用规划_基期地类图斑
+		
+GHGJ_520100_GTGH_2019	GHGJ_520100_TG_QZS_DRDK_2019	土地利用规划修改调整_调入调出_清镇市-调入地块
+GHGJ_520100_GTGH_2019	GHGJ_520100_TG_QZS_DCDK_2019	土地利用规划修改调整_调入调出_清镇市-调出地块
+GHGJ_520100_GTGH_2019	GHGJ_520100_YJJBNT_2019	永久基本农田
+GHGJ_520100_GTGH_2019	GHGJ_520100_ZDJSXM_2019	重点建设项目
+GHGJ_520100_GTGH_2019	GHGJ_520100_YBNDQ_BY_2019	一般农地区_白云-一般农地区
+GHGJ_520100_GTGH_2019	GHGJ_520100_YBNDQ_GSH_2019	一般农地区_观山湖-一般农地区
+GHGJ_520100_GTGH_2019	GHGJ_520100_YBNDQ_HX_2019	一般农地区_花溪-一般农地区
+GHGJ_520100_GTGH_2019	GHGJ_520100_YBNDQ_KY_2019	一般农地区_开阳-一般农地区
+GHGJ_520100_GTGH_2019	GHGJ_520100_YBNDQ_QZ_2019	一般农地区_清镇-一般农地区
+GHGJ_520100_GTGH_2019	GHGJ_520100_YBNDQ_WD_2019	一般农地区_乌当-一般农地区
+GHGJ_520100_GTGH_2019	GHGJ_520100_YBNDQ_XF_2019	一般农地区_息烽-一般农地区
+GHGJ_520100_GTGH_2019	GHGJ_520100_YBNDQ_XW_2019	一般农地区_修文-一般农地区
+GHGJ_520100_GTGH_2019	GHGJ_520100_CKYD_BY_2019	采矿用地_白云-采矿用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_CKYD_GSH_2019	采矿用地_观山湖-采矿用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_CKYD_HX_2019	采矿用地_花溪-采矿用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_CKYD_KY_2019	采矿用地_开阳-采矿用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_CKYD_QZ_2019	采矿用地_清镇-采矿用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_CKYD_WD_2019	采矿用地_乌当-采矿用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_CKYD_XF_2019	采矿用地_息烽-采矿用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_CKYD_XW_2019	采矿用地_修文-采矿用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_NCJMDYD_BY_2019	农村居民点用地_白云-农村居民点用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_NCJMDYD_GSH_2019	农村居民点用地_观山湖-农村居民点用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_NCJMDYD_HX_2019	农村居民点用地_花溪-农村居民点用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_NCJMDYD_KY_2019	农村居民点用地_开阳-农村居民点用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_NCJMDYD_QZ_2019	农村居民点用地_清镇-农村居民点用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_NCJMDYD_WD_2019	农村居民点用地_乌当-农村居民点用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_NCJMDYD_XF_2019	农村居民点用地_息烽-农村居民点用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_NCJMDYD_XW_2019	农村居民点用地_修文-农村居民点用地
+GHGJ_520100_GTGH_2019	GHGJ_520100_KFBHGJ_STBHHX_2019	开发保护格局_生态保护红线
+GHGJ_520100_GTGH_2019	GHGJ_520100_KFBHGJ_CZKFBJ_2019	开发保护格局_城镇开发边界
+GHKZ_520100_KZGH_2016	GHKZ_520100_TDLY_TPZGYD_2016	控规老标准_土地利用_突破总规用地
+GHKZ_520100_KZGH_2016	GHKZ_520100_TDLY_ZGFJSYD_2016	控规老标准_土地利用_总规非建设用地
+GHKZ_520100_KZGH_2016	GHKZ_520100_TDLY_KGTDLY_2016	控规老标准_土地利用_土地利用
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_CSX_2016	控规老标准_道路交通_侧石线
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_TXDL_2016	控规老标准_道路交通_弹性道路
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_DLHX_2016	控规老标准_道路交通_道路红线
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_DLZX_2016	控规老标准_道路交通_道路中线
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_DSBD_2016	控规老标准_道路交通_登山步道
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_GJQ_2016	控规老标准_道路交通_高架桥
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_GDJTBHX_2016	控规老标准_道路交通_轨道交通保护线
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_JZKKX_2016	控规老标准_道路交通_禁止开口线
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_LMBZ_2016	控规老标准_道路交通_路名标注
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_MXD_2016	控规老标准_道路交通_慢行道
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_QGZC_2016	控规老标准_道路交通_轻轨站场
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_TLCZ_2016	控规老标准_道路交通_铁路场站
+GHKZ_520100_KZGH_2016	GHKZ_520100_DLJT_TLXL_2016	控规老标准_道路交通_铁路线路
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHFW_2016	控规老标准_规划界限_规划范围
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHJX_2016	控规老标准_规划界限_规划界线
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHWX_HX_XXZL_2016	控规老标准_规划五线_黄线—线性走廊
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHWX_HX_2016	控规老标准_规划五线_黄线
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHWX_LX_X_2016	控规老标准_规划五线_蓝线—线
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHWX_LX_2016	控规老标准_规划五线_蓝线
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHWX_LVX_X_2016	控规老标准_规划五线_绿线—线
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHWX_LVX_2016	控规老标准_规划五线_绿线
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHWX_ZX_X_2016	控规老标准_规划五线_紫线-线
+GHKZ_520100_KZGH_2016	GHKZ_520100_GHWX_ZX_2016	控规老标准_规划五线_紫线
+GHKZ_520100_KZGH_2016	GHKZ_520100_HDZT_HDLX_2016	控规老标准_河道专题_河道蓝线
+GHKZ_520100_KZGH_2016	GHKZ_520100_HDZT_HDZX_2016	控规老标准_河道专题_河道中线
+GHKZ_520100_KZGH_2016	GHKZ_520100_HDZT_SKLX_2016	控规老标准_河道专题_水库蓝线
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_SC_2016	控规老标准_公共设施_市场
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_CTKYZ_2016	控规老标准_公共设施_长途客运站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_CXS_2016	控规老标准_公共设施_储蓄所
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_DXFJ_2016	控规老标准_公共设施_电信分局
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_CAPCS_2016	控规老标准_公共设施_公安派出所
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_GGCS_2016	控规老标准_公共设施_公共厕所
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_GGJTHCSN_2016	控规老标准_公共设施_公共交通换乘枢纽
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_GJSFZ_2016	控规老标准_公共设施_公交始发站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_GDJTCZ_2016	控规老标准_公共设施_轨道交通场站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_JYZ_2016	控规老标准_公共设施_加油站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_JLY_2016	控规老标准_公共设施_敬老院
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_QCJQZ_2016	控规老标准_公共设施_汽车加气站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_QSNHDZX_2016	控规老标准_公共设施_青少年活动中心
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_QGZ_2016	控规老标准_公共设施_轻轨站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_SQBGFWYF_2016	控规老标准_公共设施_社区办公服务用房
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_SQJKFWZX_2016	控规老标准_公共设施_社区健康服务中心
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_SQWHHDZX_2016	控规老标准_公共设施_社区文化活动中心
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_TLKYZ_2016	控规老标准_公共设施_铁路客运站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_TCC_2016	控规老标准_公共设施_停车场
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_TLS_2016	控规老标准_公共设施_托老所
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_WHHDZ_2016	控规老标准_公共设施_文化活动站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_ZZ_PT_2016	控规老标准_公共设施_中专
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_YDC_PT_2016	控规老标准_公共设施_运动场
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_WHGC_PT_2016	控规老标准_公共设施_文化广场
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_XX_PT_2016	控规老标准_公共设施_小学
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_YEY_PT_2016	控规老标准_公共设施_幼儿园
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_WSZ_PT_2016	控规老标准_公共设施_卫生站
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_WWGJ_PT_2016	控规老标准_公共设施_文物古迹
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_WYYF_PT_2016	控规老标准_公共设施_物业用房
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_BDZ_2016	控规老标准_市政管线_变电站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_BGDQY_2016	控规老标准_市政管线_变供电区域
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_DG_2016	控规老标准_市政管线_大沟
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_DLGX_2016	控规老标准_市政管线_电力管线
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_DXS_2016	控规老标准_市政管线_电信所
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_JSGX_2016	控规老标准_市政管线_给水管线
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_JSJYBZ_2016	控规老标准_市政管线_给水加压泵站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_GJTBC_2016	控规老标准_市政管线_公交停保场
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_GSQY_2016	控规老标准_市政管线_供水区域
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_JZGRSS_2016	控规老标准_市政管线_集中供热设施
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_KBS_2016	控规老标准_市政管线_开闭所
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_LJSJD_2016	控规老标准_市政管线_垃圾收集点
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_LJZYZ_2016	控规老标准_市政管线_垃圾转运站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_LDPDS_2016	控规老标准_市政管线_路灯配电室
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_PSBZ_2016	控规老标准_市政管线_排水泵站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_PSGX_2016	控规老标准_市政管线_排水管线
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_RQGX_2016	控规老标准_市政管线_燃气管线
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_SC_2016	控规老标准_市政管线_水厂
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_TRQMZ_2016	控规老标准_市政管线_天然气门站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_WSCLC_2016	控规老标准_市政管线_污水处理厂
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_XFZ_2016	控规老标准_市政管线_消防站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_YZSS_2016	控规老标准_市政管线_邮政设施
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZGX_ZSZTHSD_2016	控规老标准_市政管线_再生资源回收点
+GHKZ_520100_KZGH_2015	GHKZ_520100_TDLY_KGYD_2015	控规老标准_土地利用_控规用地
+GHKZ_520100_KZGH_2015	GHKZ_520100_GHWX_HX_2015	控规老标准_规划五线_黄线
+GHKZ_520100_KZGH_2015	GHKZ_520100_GHWX_LX_2015	控规老标准_规划五线_蓝线
+GHKZ_520100_KZGH_2015	GHKZ_520100_GHWX_LVX_2015	控规老标准_规划五线_绿线
+GHKZ_520100_KZGH_2015	GHKZ_520100_GHWX_ZX_2015	控规老标准_规划五线_紫线
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_BGDQY_2015	控规老标准_市政管线_变供电区域
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_DG_2015	控规老标准_市政管线_大沟
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_DLGX_2015	控规老标准_市政管线_电力管线
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_DXJFGQY_2015	控规老标准_市政管线_电信局覆盖区域
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_JSGX_2015	控规老标准_市政管线_给水管线
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_GRGX_2015	控规老标准_市政管线_供热管线
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_GSQY_2015	控规老标准_市政管线_供水区域
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_GLF_2015	控规老标准_市政管线_锅炉房
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_PSGX_2015	控规老标准_市政管线_排水管线
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_RQGX_2015	控规老标准_市政管线_燃气管线
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_SYGX_2015	控规老标准_市政管线_输油管线
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_TXGX_2015	控规老标准_市政管线_通信管线
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZGX_WSCFWFW_2015	控规老标准_市政管线_污水厂服务范围
+GHKZ_520100_KZGH_2015	GHKZ_520100_DLJT_LMBZ_2015	控规老标准_道路交通_路名标注
+GHKZ_520100_KZGH_2015	GHKZ_520100_DLJT_DLBZ_2015	控规老标准_道路交通_道路标注
+GHKZ_520100_KZGH_2015	GHKZ_520100_DLJT_BRTGJZYD_2015	控规老标准_道路交通_BRT公交专用道
+GHKZ_520100_KZGH_2015	GHKZ_520100_DLJT_CXDCSX_2015	控规老标准_道路交通_车行道侧石线
+GHKZ_520100_KZGH_2015	GHKZ_520100_DLJT_DLHX_2015	控规老标准_道路交通_道路红线
+GHKZ_520100_KZGH_2015	GHKZ_520100_DLJT_DLZX_2015	控规老标准_道路交通_道路中线
+GHKZ_520100_KZGH_2015	GHKZ_520100_DLJT_DTXL_2015	控规老标准_道路交通_地铁线路
+GHKZ_520100_KZGH_2015	GHKZ_520100_DLJT_TLXL_2015	控规老标准_道路交通_铁路线路
+GHKZ_520100_KZGH_2015	GHKZ_520100_GHJX_GH_2015	控规老标准_规划界线_规划界线_规划
+GHKZ_520100_KZGH_2015	GHKZ_520100_GHJX_XZ_2015	控规老标准_规划界线_规划界线_现状
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_JNYGZ_2015	控规老标准_公共设施-教育类设施_九年一贯制
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_SENZXX_2015	控规老标准_公共设施-教育类设施_十二年制学校
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_TSXX_2015	控规老标准_公共设施-教育类设施_特殊学校
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_TY_2015	控规老标准_公共设施-教育类设施_托幼
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_WQCJZX_2015	控规老标准_公共设施-教育类设施_完全初级中学
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_XXYEY_2015	控规老标准_公共设施-教育类设施_小小幼儿园
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_XX_2015	控规老标准_公共设施-教育类设施_小学
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_ZYJSXX_2015	控规老标准_公共设施-教育类设施_职业技术学校
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_ZX_2015	控规老标准_公共设施-教育类设施_中学
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_BWG_2015	控规老标准_公共设施-文化类设施_博物馆
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_GBDS_2015	控规老标准_公共设施-文化类设施_广播电视
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_QSNHDZX_2015	控规老标准_公共设施-文化类设施_青少年活动中心
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_SQWHHDZX_2015	控规老标准_公共设施-文化类设施_社区文化活动中心
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_TSG_2015	控规老标准_公共设施-文化类设施_图书馆
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_WHGC_2015	控规老标准_公共设施-文化类设施_文化广场
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_WHHDZX_2015	控规老标准_公共设施-文化类设施_文化活动中心
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_XWCB_2015	控规老标准_公共设施-文化类设施_新闻出版
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_YCCS_2015	控规老标准_公共设施-文化类设施_演出场所
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_ZLG_2015	控规老标准_公共设施-文化类设施_展览馆
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_CGXJG_2015	控规老标准_公共设施-医疗类设施_采供血机构
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_FYBJJSY_2015	控规老标准_公共设施-医疗类设施_妇幼保健计生院
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_JJZX_2015	控规老标准_公共设施-医疗类设施_急救中心
+GHKZ_520100_KZGH_2016	GHKZ_520100_GGSS_JBFZZX_2015	控规老标准_公共设施-医疗类设施_疾病防治中心
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_QTJG_2015	控规老标准_公共设施-医疗类设施_其他机构
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_SQWSFWZX_2015	控规老标准_公共设施-医疗类设施_社区卫生服务中心
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_WSJDS_2015	控规老标准_公共设施-医疗类设施_卫生监督所
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_WSY_2015	控规老标准_公共设施-医疗类设施_卫生院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_WSZ_2015	控规老标准_公共设施-医疗类设施_卫生站
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZXYJHYY_2015	控规老标准_公共设施-医疗类设施_中西医结合医院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZKJBFZY_2015	控规老标准_公共设施-医疗类设施_专科疾病防治院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZKYY_2015	控规老标准_公共设施-医疗类设施_专科医院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZHYY_2015	控规老标准_公共设施-医疗类设施_综合医院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_GJ_2015	控规老标准_公共设施-历史文物类设施_古井
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_LJY_2015	控规老标准_公共设施-历史文物类设施_老街垣
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_LSBHQ_2015	控规老标准_公共设施-历史文物类设施_历史保护区
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_LSJQ_2015	控规老标准_公共设施-历史文物类设施_历史街区
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_WWBHJZ_2015	控规老标准_公共设施-历史文物类设施_文物保护建筑
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_WWGJ_2015	控规老标准_公共设施-历史文物类设施_文物古迹
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_LQC_2015	控规老标准_公共设施-体育设施_篮球场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_SWQLCD_2015	控规老标准_公共设施-体育设施_室外球类场地
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_TYSS_2015	控规老标准_公共设施-体育设施_体育设施
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_TYYD_2015	控规老标准_公共设施-体育设施_体育用地
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_TJC_2015	控规老标准_公共设施-体育设施_田径场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_WQC_2015	控规老标准_公共设施-体育设施_网球场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_YYC_2015	控规老标准_公共设施-体育设施_游泳场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_YDC_2015	控规老标准_公共设施-体育设施_运动场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZXCXLC_2015	控规老标准_公共设施-体育设施_自行车训练场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZQC_2015	控规老标准_公共设施-体育设施_足球场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_BHSC_2015	控规老标准_公共设施-体育设施_百货商场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_BXGS_2015	控规老标准_公共设施-体育设施_保险公司
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_BYG_2015	控规老标准_公共设施-体育设施_殡仪馆
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_CJRTYS_2015	控规老标准_公共设施-体育设施_残疾人托养所
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_DZJG_2015	控规老标准_公共设施-体育设施_党政机关
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_FJMSQ_2015	控规老标准_公共设施-体育设施_风景名胜区
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_GSS_2015	控规老标准_公共设施-体育设施_工商所
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_GAJFJ_2015	控规老标准_公共设施-体育设施_公安局、分局
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_GAPCS_2015	控规老标准_公共设施-体育设施_公安派出所
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_GGLD_2015	控规老标准_公共设施-体育设施_公共绿地
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_GWZX_2015	控规老标准_公共设施-体育设施_购物中心
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_GEY_2015	控规老标准_公共设施-体育设施_孤儿院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_JDBSC_2015	控规老标准_公共设施-体育设施_街道办事处
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_JLY_2015	控规老标准_公共设施-体育设施_敬老院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_LNRFWJFLZX_2015	控规老标准_公共设施-体育设施_老年人服务及福利中心
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_LLZX_2015	控规老标准_公共设施-体育设施_邻里中心
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_LG_2015	控规老标准_公共设施-体育设施_旅馆
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_MZS_2015	控规老标准_公共设施-体育设施_门诊所
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_MD_2015	控规老标准_公共设施-体育设施_墓地
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_SHTCC_2015	控规老标准_公共设施-体育设施_社会停车场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_SQBGFWYF_2015	控规老标准_公共设施-体育设施_社区办公服务用房
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_SQFWZX_2015	控规老标准_公共设施-体育设施_社区服务中心
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_SC_2015	控规老标准_公共设施-体育设施_市场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_TLS_2015	控规老标准_公共设施-体育设施_托老所
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_WHHDZ_2015	控规老标准_公共设施-体育设施_文化活动站
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_WTFWYF_2015	控规老标准_公共设施-体育设施_物业服务用房
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_XXFW_2015	控规老标准_公共设施-体育设施_休闲服务
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_YY_2015	控规老标准_公共设施-体育设施_医院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_YH_2015	控规老标准_公共设施-体育设施_银行
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_YJY_2015	控规老标准_公共设施-体育设施_影剧院
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZQGS_2015	控规老标准_公共设施-体育设施_证券公司
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZXYD_2015	控规老标准_公共设施-体育设施_中西药店
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZHG_2015	控规老标准_公共设施-体育设施_综合馆
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZHSC_2015	控规老标准_公共设施-体育设施_综合商场
+GHKZ_520100_KZGH_2015	GHKZ_520100_GGSS_ZHYL_2015	控规老标准_公共设施-体育设施_综合娱乐
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_CTKYZ_2015	控规老标准_交通设施-区域交通设施_长途客运站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_GLHYZ_2015	控规老标准_交通设施-区域交通设施_公路货运站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_GLKYZ_2015	控规老标准_交通设施-区域交通设施_公路客运站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_HYMT_2015	控规老标准_交通设施-区域交通设施_货运码头
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_JC_2015	控规老标准_交通设施-区域交通设施_机场
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_KGCC_2015	控规老标准_交通设施-区域交通设施_快轨车场
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_KGCZ_2015	控规老标准_交通设施-区域交通设施_快轨车站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_MT_2015	控规老标准_交通设施-区域交通设施_码头
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_TLHYZ_2015	控规老标准_交通设施-区域交通设施_铁路货运站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_TLKYZ_2015	控规老标准_交通设施-区域交通设施_铁路客运站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_FJDCTCC_2015	控规老标准_交通设施-城市交通设施_非机动车停车场
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_GGJTHCSN_2015	控规老标准_交通设施-城市交通设施_公共交通换乘枢纽
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_GJCZ_2015	控规老标准_交通设施-城市交通设施_公交场站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_GJSFZ_2015	控规老标准_交通设施-城市交通设施_公交始发站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_GJSN_2015	控规老标准_交通设施-城市交通设施_公交枢纽
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSSS_GJTBZ_2015	控规老标准_交通设施-城市交通设施_公交停保站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_GC_2015	控规老标准_交通设施-城市交通设施_广场
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_GDJTCZ_2015	控规老标准_交通设施-城市交通设施_轨道交通场站
+GHKZ_520100_KZGH_2015	GHKZ_520100_JTSS_JYZ_2015	控规老标准_交通设施-城市交通设施_加油站
+GHKZ_520100_KZGH_2016	GHKZ_520100_JTSS_QGZ_2015	控规老标准_交通设施-城市交通设施_轻轨站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_GWSC_2015	控规老标准_市政设施-供水设施_高位水池
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_JSJYBZ_2015	控规老标准_市政设施-供水设施_给水加压泵站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_JSC_2015	控规老标准_市政设施-供水设施_净水厂
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_SC_2015	控规老标准_市政设施-供水设施_水厂
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_ZSSC_2015	控规老标准_市政设施-供水设施_再生水厂
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_ZSSCLZX_2015	控规老标准_市政设施-供水设施_再生水处理中心
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_HLBZ_2015	控规老标准_市政设施-排水设施_合流泵站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_PSBZ_2015	控规老标准_市政设施-排水设施_排水泵站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_WSBZ_2015	控规老标准_市政设施-排水设施_污水泵站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_YSBZ_2015	控规老标准_市政设施-排水设施_雨水泵站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_BDS_2015	控规老标准_市政设施-供电设施_变电所
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_BDZ_2015	控规老标准_市政设施-供电设施_变电站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_KBZ_2015	控规老标准_市政设施-供电设施_开闭站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_LDPDS_2015	控规老标准_市政设施-供电设施_路灯配电室
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_RDC_2015	控规老标准_市政设施-供电设施_热电厂
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_JZGRSS_2015	控规老标准_市政设施-燃气设施_集中供热设施
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_MQC_2015	控规老标准_市政设施-燃气设施_煤气厂
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_MQCCZ_2015	控规老标准_市政设施-燃气设施_煤气储存站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_PZGYZ_2015	控规老标准_市政设施-燃气设施_瓶装供应站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_RQTYZ_2015	控规老标准_市政设施-燃气设施_燃气调压站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_RQSQZ_2015	控规老标准_市政设施-燃气设施_燃气输气站
+GHKZ_520100_KZGH_2016	GHKZ_520100_SZSS_RLZ_2015	控规老标准_市政设施-燃气设施_热力站
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_TRQCPZ_2015	控规老标准_市政设施-燃气设施_天然气储配站   
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_TRQMZ_2015	控规老标准_市政设施-燃气设施_天然气门站
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_YHQZ_2015	控规老标准_市政设施-燃气设施_液化气站
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_QCJQC_2015	控规老标准_市政设施-燃气设施_汽车加气站
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_MQCG_2015	控规老标准_市政设施-燃气设施_燃气储罐
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_DXDJ_2015	控规老标准_市政设施-电信设施_电信端局
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_DXFJ_2015	控规老标准_市政设施-电信设施_电信分局
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_DXMKJ_2015	控规老标准_市政设施-电信设施_电信模块局
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_DXSNZX_2015	控规老标准_市政设施-电信设施_电信枢纽中心
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_DXS_2015	控规老标准_市政设施-电信设施_电信所
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_GGCS_2015	控规老标准_市政设施-环卫设施_公共厕所
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_HWS_2015	控规老标准_市政设施-环卫设施_环卫所
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_HWTCC_2015	控规老标准_市政设施-环卫设施_环卫停车场
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_LJCLC_2015	控规老标准_市政设施-环卫设施_垃圾处理厂
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_LJSJD_2015	控规老标准_市政设施-环卫设施_垃圾收集点
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_LJTMC_2015	控规老标准_市政设施-环卫设施_垃圾填埋场
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_LJZYZ_2015	控规老标准_市政设施-环卫设施_垃圾转运站
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_ZSZYHSD_2015	控规老标准_市政设施-环卫设施_再生资源回收点
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_WXPCK_2015	控规老标准_市政设施-其它市政设施_危险品仓库
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_XFZ_2015	控规老标准_市政设施-其它市政设施_消防站
+GHKZ_520100_KZGH_2015	GHKZ_520100_SZSS_XFZHZX_2015	控规老标准_市政设施-其它市政设施_消防指挥中心
+		
+		
+		
+		
+		
+		
+GHCG_520100_KGQW	GHCG_520100_KGQW_XWXGHFW_PY	控规老标准_中心城区外控规_修文县规划范围
+GHCG_520100_KGQW	GHCG_520100_KGQW_XWXGHJSYD_PY	控规老标准_中心城区外控规_修文县规划建设用地
+GHCG_520100_KGQW	GHCG_520100_KGQW_KYXXZGHFW_PY	控规老标准_中心城区外控规_开阳县乡镇规划范围
+GHCG_520100_KGQW	GHCG_520100_KGQW_KYXXZGHJSYD_PY	控规老标准_中心城区外控规_开阳县乡镇规划建设用地
+GHCG_520100_KGQW	GHCG_520100_KGQW_QZSGHFW_PY	控规老标准_中心城区外控规_清镇市规划范围
+GHCG_520100_KGQW	GHCG_520100_KGQW_QZSGHJSYD_PY	控规老标准_中心城区外控规_清镇市规划建设用地
+GHCG_520100_KGQW	GHCG_520100_KGQW_WDQXZGHFW_PY	控规老标准_中心城区外控规_乌当区乡镇规划范围
+GHCG_520100_KGQW	GHCG_520100_KGQW_WDQXZGHJSYD_PY	控规老标准_中心城区外控规_乌当区乡镇规划建设用地
+GHCG_520100_KGQW	GHCG_520100_KGQW_HXQGHFW_PY	控规老标准_中心城区外控规_花溪区规划范围
+GHCG_520100_KGQW	GHCG_520100_KGQW_HXQGHJSYD_PY	控规老标准_中心城区外控规_花溪区规划建设用地
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFGLDY_PY	控规老标准_息烽_管理单元
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFGHFWJX_PY	控规老标准_息烽_规划范围界线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFGHYD_PY	控规老标准_息烽_规划用地
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFXXZGHFW_PY	控规老标准_息烽_乡镇规划范围
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFXXZGHJSYD_PY	控规老标准_息烽_乡镇规划建设用地
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFDLCSX_PL	控规老标准_息烽_道路侧石线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFDLHX_PL	控规老标准_息烽_道路红线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFDLZX_PL	控规老标准_息烽_道路中线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFGLX_PL	控规老标准_息烽_公路线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFTLX_PL	控规老标准_息烽_铁路线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XF_DLX_PL	控规老标准_息烽_电力线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XF_HX_PL	控规老标准_息烽_黄线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XF_HXSS_PY	控规老标准_息烽_黄线设施
+GHCG_520100_KGQW	GHCG_520100_KGQW_XF_LX_PY	控规老标准_息烽_蓝线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XF_LVXFH_PY	控规老标准_息烽_绿线防护
+GHCG_520100_KGQW	GHCG_520100_KGQW_XF_ZX_PY	控规老标准_息烽_紫线
+GHCG_520100_KGQW	GHCG_520100_KGQW_XFYPYDHX	控规老标准_息烽_已批用地红线
+GHCG_520100_KGZG	GHCG_520100_KGZG_DY_PY	
+GHCG_520100_KGZG	GHCG_520100_KGZG_ZT_PY	
+GHCG_520100_KGZG	GHCG_520100_WD_GHFWJX_GLDYJX	控规老标准_规划范围界线_管理单元界线
+GHCG_520100_KGZG	GHCG_520100_WD_GHFWJX_ZTJX	控规老标准_规划范围界线_组团界线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHFWJX_ZTJX	控规老标准_规划范围界线_组团界线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHFWJX_GLDYJX	控规老标准_规划范围界线_管理单元界线
+GHCG_520100_KGZG	GHCG_520100_SB_GHJXFW_GLDYJX	控规老标准_规划范围界线_管理单元界线
+GHCG_520100_KGZG	GHCG_520100_SB_GHJXFW_ZTJX	控规老标准_规划范围界线_组团界线
+GHCG_520100_KGZG	GHCG_520100_XG_GHFWJX_GLDYJX	控规老标准_规划范围界线_管理单元界线
+GHCG_520100_KGZG	GHCG_520100_XG_GHFWJX_ZTJX	控规老标准_规划范围界线_组团界线
+GHCG_520100_KGZG	GHCG_520100_WD_GHDK_GHYD	控规老标准_规划地块_规划用地
+GHCG_520100_KGZG	GHCG_520100_WD_GHDK_JSYDBJ	控规老标准_规划地块_建设用地边界
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHDK_GHYD	控规老标准_规划地块_规划用地
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHDK_JSYDBJ	控规老标准_规划地块_建设用地边界
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHDK_YDMC	控规老标准_规划地块_用地名称
+GHCG_520100_KGZG	GHCG_520100_SB_GHDK_GHYD	控规老标准_规划地块_规划用地
+GHCG_520100_KGZG	GHCG_520100_SB_GHDK_JSYDBJ	控规老标准_规划地块_建设用地边界
+GHCG_520100_KGZG	GHCG_520100_SB_GHDK_YDMC	控规老标准_规划地块_用地名称
+GHCG_520100_KGZG	GHCG_520100_XG_GHDK_GHYD	控规老标准_规划地块_规划用地
+GHCG_520100_KGZG	GHCG_520100_XG_GHDK_JSYDBJ	控规老标准_规划地块_建设用地边界
+GHCG_520100_KGZG	GHCG_520100_WD_GHKZX_CKQBHX	控规老标准_规划控制线_采空区保护线
+GHCG_520100_KGZG	GHCG_520100_WD_GHKZX_GDJTXLBHKZX	控规老标准_规划控制线_轨道交通线路保护控制线
+GHCG_520100_KGZG	GHCG_520100_WD_GHKZX_LANXBHX	控规老标准_规划控制线_蓝线保护线
+GHCG_520100_KGZG	GHCG_520100_WD_GHKZX_LVXBHX	控规老标准_规划控制线_绿线保护线
+GHCG_520100_KGZG	GHCG_520100_WD_GHKZX_SYBHX	控规老标准_规划控制线_水源保护线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHKZX_CKQBHX	控规老标准_规划控制线_采空区保护线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHKZX_GDJTXLBHKZX	控规老标准_规划控制线_轨道交通线路保护控制线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHKZX_HXBHX	控规老标准_规划控制线_黄线保护线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHKZX_HXSS	控规老标准_规划控制线_黄线设施
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHKZX_LANXBHX	控规老标准_规划控制线_蓝线保护线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHKZX_LVXBHX	控规老标准_规划控制线_绿线保护线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GHKZX_SYBHX	控规老标准_规划控制线_水源保护线
+GHCG_520100_KGZG	GHCG_520100_SB_GHKZX_FJMSQ	控规老标准_规划控制线_风景名胜区
+GHCG_520100_KGZG	GHCG_520100_SB_GHKZX_GDJTXLBHKZX	控规老标准_规划控制线_轨道交通线路保护控制线
+GHCG_520100_KGZG	GHCG_520100_SB_GHKZX_SYBHX	控规老标准_规划控制线_水源保护线
+GHCG_520100_KGZG	GHCG_520100_XG_GHKZX_GDJTXLBHKZX	控规老标准_规划控制线_轨道交通线路保护控制线
+GHCG_520100_KGZG	GHCG_520100_XG_GHKZX_LVXBHX	控规老标准_规划控制线_绿线保护线
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_DLCSX	控规老标准_综合交通规划_道路侧石线
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_DLHX	控规老标准_综合交通规划_道路红线
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_DLZX	控规老标准_综合交通规划_道路中线
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_GDJTXL	控规老标准_综合交通规划_轨道交通线路
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_加油站
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_汽车加气站
+GHCG_520100_KGZG	GHCG_520100_WD_ZHJTGH_TLXL	控规老标准_综合交通规划_铁路线路
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_DLMC	控规老标准_综合交通规划_道路名称
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_DLCSX	控规老标准_综合交通规划_道路侧石线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_DLHX	控规老标准_综合交通规划_道路红线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_DLZX	控规老标准_综合交通规划_道路中线
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_GDJTXL	控规老标准_综合交通规划_轨道交通线路
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_加油站
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_汽车加气站
+GHCG_520100_KGZG	GHCG_520100_SMPQ_ZHJTGH_TLXL	控规老标准_综合交通规划_铁路线路
+GHCG_520100_KGZG	GHCG_520100_SB_ZHJTGH_DLCSX	控规老标准_综合交通规划_道路侧石线
+GHCG_520100_KGZG	GHCG_520100_SB_ZHJTGH_DLHX	控规老标准_综合交通规划_道路红线
+GHCG_520100_KGZG	GHCG_520100_SB_ZHJTGH_DLMC	控规老标准_综合交通规划_道路名称
+GHCG_520100_KGZG	GHCG_520100_SB_ZHJTGH_DLZX	控规老标准_综合交通规划_道路中线
+GHCG_520100_KGZG	GHCG_520100_SB_ZHJTGH_GDJTXL	控规老标准_综合交通规划_轨道交通线路
+GHCG_520100_KGZG	GHCG_520100_SB_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_轨道交通站场
+GHCG_520100_KGZG	GHCG_520100_SB_ZHJTGH_TLXL	控规老标准_综合交通规划_铁路线路
+GHCG_520100_KGZG	GHCG_520100_SB_ZHJTGH_ZHJTSS	控规老标准_综合交通规划_铁路站场
+GHCG_520100_KGZG	GHCG_520100_XG_ZHJTHGH_DLCSX	控规老标准_综合交通规划_道路侧石线
+GHCG_520100_KGZG	GHCG_520100_XG_ZHJTHGH_DLHX	控规老标准_综合交通规划_道路红线
+GHCG_520100_KGZG	GHCG_520100_XG_ZHJTHGH_DLZX	控规老标准_综合交通规划_道路中线
+GHCG_520100_KGZG	GHCG_520100_XG_ZHJTHGH_ZHJTSS	控规老标准_综合交通规划_小关
+GHCG_520100_KGZG	GHCG_520100_XG_ZHJTHGH_ZHJTSS	控规老标准_综合交通规划_小关
+GHCG_520100_KGZG	GHCG_520100_XG_ZHJTHGH_ZHJTSS	控规老标准_综合交通规划_小关
+GHCG_520100_KGZG	GHCG_520100_XG_ZHJTHGH_GDJTXL	控规老标准_综合交通规划_轨道交通线路
+GHCG_520100_KGZG	GHCG_520100_XG_ZHJTHGH_TLXL	控规老标准_综合交通规划_铁路线路
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_WD_GGFWSS	控规老标准_公共服务设施规划_乌当
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SMPQ_GGFWSS	控规老标准_公共服务设施规划_三马片区
+GHCG_520100_KGZG	GHCG_520100_SB_GGFWSS	控规老标准_公共服务设施规划_石板
+GHCG_520100_KGZG	GHCG_520100_SB_GGFWSS	控规老标准_公共服务设施规划_石板
+GHCG_520100_KGZG	GHCG_520100_SB_GGFWSS	控规老标准_公共服务设施规划_石板
+GHCG_520100_KGZG	GHCG_520100_SB_GGFWSS	控规老标准_公共服务设</value>
+  </data>
+</root>

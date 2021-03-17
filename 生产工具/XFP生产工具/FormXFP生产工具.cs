@@ -17,7 +17,8 @@ namespace XFP生产工具
         HelperMessRecord Mess;
         HelperControlRecord helperControlRecord;
         const string fromname = "生产工具_XFP生产工具";
-        const string fromlevel = " v1.2 20201103";
+        const string fromlevel = " v1.5";
+        const string PID = "生产工具_XFP生产工具";
 
         public FormXFP生产工具()
         {
@@ -32,6 +33,7 @@ namespace XFP生产工具
         private void FormXFP生产工具_Load(object sender, EventArgs e)
         {
             helperControlRecord.Load();
+            if (!HelperWindowsControl.Registered.RegisteredSoft.Run(fromname,this, PID)) return;
         }
 
         string txtpaht, xfppath, xfpsave, txtgs;
@@ -79,6 +81,8 @@ namespace XFP生产工具
         {
             try
             {
+                if (!HelperWindowsControl.Registered.RegisteredSoft.Run(fromname,this, PID)) { MessageBox.Show("请注册软件后运行!"); return; }
+
                 txtpaht = this.txtTXT文件.Text.Trim();
                 xfppath = this.txtXFP文件.Text.Trim();
                 xfpsave = this.txt保存路径.Text.Trim();
@@ -116,7 +120,7 @@ namespace XFP生产工具
             List<string> savestrings = new List<string>();
             //savestrings.Add("    40000014              6756.57482      1634.81085   0.00  3 { * }");
             //string strconfig = "    {0}              {1}      {2}";
-            string strconfig = "{0}{1}{2}";
+            string strconfig = "{0}      {1}      {2}";
 
             int index = 0;
             for (int i = 0; i < txtxfps.Count; i++)
@@ -197,12 +201,12 @@ namespace XFP生产工具
             }
             try
             {
-                strout[0] = strout[0].PadLeft(12, ' ');
+                strout[0] = strout[0];//.PadLeft(12, ' ');
                 // xfp第二列=txt第二列/像元大小(哪里来的？)+图幅宽（哪里来的？）
-                strout[1] = (tfk/2+(double.Parse(strout[1])/xysize*1000)).ToString(txtgs).PadLeft(24, ' ');
+                strout[1] = (tfk / 2 + (double.Parse(strout[1]) / xysize * 1000)).ToString(txtgs);//.PadLeft(24, ' ');
 
                 // xfp第三列=图幅高（哪里来的？）- txt第三列/像元大小
-                strout[2] = (tfg/2 - (double.Parse(strout[2]) / xysize*1000)).ToString(txtgs).PadLeft(16, ' ');
+                strout[2] = (tfg / 2 - (double.Parse(strout[2]) / xysize * 1000)).ToString(txtgs);//.PadLeft(16, ' ');
                 return true;
             }
             catch (Exception ex)

@@ -40,9 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cryptogram\HelperAES.cs" />
+    <Compile Include="Cryptogram\HelperMd5.cs" />
+    <Compile Include="Hardware\RegisterClass.cs" />
     <Compile Include="HelperDataConversion.cs" />
     <Compile Include="HelperDisk.cs" />
     <Compile Include="HelperSpell.cs" />
+    <Compile Include="LocalFile\HelperINI.cs" />
     <Compile Include="LocalFile\HelperTxt.cs" />
     <Compile Include="LocalFile\HelperXML.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

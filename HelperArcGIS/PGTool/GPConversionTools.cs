@@ -13,8 +13,17 @@ namespace HelperArcGIS.PGTool
 
             gp.Input_Features = input_Features;
             gp.Output_Geodatabase = output_Geodatabase;
-            
+            return GeoprocessorRun.Run(gp, ref mess);
+        }
 
+        public static bool FeatureClassToFeatureClass(ref string mess, object input_Features, string output_Location,string output_FeatureClass)
+        {
+            ESRI.ArcGIS.ConversionTools.FeatureClassToFeatureClass gp = new ESRI.ArcGIS.ConversionTools.FeatureClassToFeatureClass();
+
+            gp.in_features = input_Features;
+            gp.out_path = output_Location;
+            gp.out_feature_class = output_FeatureClass;
+            gp.out_name = output_FeatureClass;
             return GeoprocessorRun.Run(gp, ref mess);
         }
     }
